@@ -6,13 +6,18 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+{% if page.banner-y-padding %}
+#home-title-box {
+    padding-top: {{ page.banner-y-padding }};
+    padding-bottom: {{ page.banner-y-padding }};
+}{% endif %}
 .title-card {
     background-color: #ffffffd1;
 }
 </style>
-<div class="jumbotron pb-6 mb-0 rounded-0" id="home-banner">
+<div class="jumbotron mb-0 rounded-0" id="home-banner">
     <div class="row py-4">
-        <div id="home-title-box" class="col-md-8 mx-auto display-block text-center" style="padding: 5em">
+        <div id="home-title-box" class="col-md-8 mx-auto display-block text-center">
             <div class="card title-card ">
                 <h1 class="display-4">{{ site.title }}</h1>
                 <p>{{ site.tagline }}</p>
