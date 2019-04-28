@@ -27,6 +27,12 @@ baseurl: /symposium-collection-2019
 # repository is the github repository's full url
 repository: https://github.com/PalouseDH/symposium-collection-2019
 
+# Featured Image
+# featured-image appears in meta tags for search and social media
+# give filename including folder
+featured-image: objects/test024.jpg
+featured-image-alt: "The Plaid Palouse, postcard image"
+
 # Theme Options
 # navbar text color
 # Choose from "navbar-light" for use with light background colors, or "navbar-dark" for dark background colors
